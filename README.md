@@ -34,3 +34,17 @@ python -m venv dl_env
 .\dl_env\Scripts\activate
 pip install -r requirements.txt
 
+
+---
+
+## ☢️ Geant4 TestEm13 Kurulum Paketi (Güncel)
+
+Bu repoda Cs-137 gamma ölçümü için TestEm13 uyumlu, daha gerçekçi bir paket bulunur:
+
+- `geant4/testem13_setup/DetectorConstruction.hh/.cc`
+- `geant4/testem13_setup/PrimaryGeneratorAction.hh/.cc`
+- `geant4/testem13_setup/ActionInitialization.hh/.cc`
+- `geant4/testem13_setup/run_cs137_gauss.mac`
+- `geant4/testem13_setup/README_TR.md`
+
+Not: Cs-137 enerjisi sabit değil, gaussian dağılımdan örneklenir (661.657 keV merkezli).
