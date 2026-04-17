@@ -1,0 +1,17 @@
+/control/verbose 1
+/run/verbose 1
+/event/verbose 0
+/tracking/verbose 0
+
+/run/initialize
+
+# Görselleştirme
+/vis/open OGL 1000x800-0+0
+/vis/viewer/setStyle surface
+/vis/drawVolume
+/vis/scene/add/axes 0 0 0 20 cm
+/vis/viewer/setAutoRefresh true
+/vis/viewer/flush
+
+# İstatistik
+/run/beamOn 100000
